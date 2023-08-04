@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/oneMovieOpenedPosterImage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:id="@+id/oneMovieOpenedTitleTxt"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/oneMovieOpenedPosterImage"
+        android:textSize="25dp"
+        android:text="Sample Title"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/oneMovieOpenedPreviewTxt"
+        android:textSize="17dp"
+        android:layout_toRightOf="@id/oneMovieOpenedPosterImage"
+        android:layout_below="@id/oneMovieOpenedTitleTxt"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Sampleoverviewabc123kappauhyftgdfsddxxjkhjhhsd"
+        android:singleLine="false"
+        android:maxLines="6"/>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/oneMovieOpenedOverviewTxt"
+        android:layout_below="@id/oneMovieOpenedPosterImage"
+        android:text="Overviewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwhicxjkhfdjkyhfjksanhjkvfydushnixkskcxikhgfdjkurjghbdfjgfhfghjrfgdhgffsdfg"
+        android:singleLine="false"
+        android:textSize="15dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="end"
+        android:maxLines="17"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/oneMovieOpenedFavBtn"
+        android:text="Open in themoviedb.org"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
